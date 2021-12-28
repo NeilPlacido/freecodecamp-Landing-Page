@@ -69,15 +69,18 @@ a:hover {
   transition: 1ms;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   nav ul {
-    margin-top: -100px;
+    margin-top: -300px;
   }
   #burger {
-    color: ivory;
+    color: rgba(218, 24, 24, 0.952);
     font-size: 30px;
     margin: 10px;
     cursor: pointer;
+  }
+  #burger:hover {
+    color: #ff6600;
   }
 }
 
@@ -90,15 +93,17 @@ a:hover {
   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1025px) {
   #showcase {
-    height: 40vh;
+    height: 33vh;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
   #showcase {
-    height: 35vh;
+    height: 33vh;
+    background-size: 555px;
+    background-position-x: 50%;
   }
 }
 
@@ -119,18 +124,21 @@ h1 {
 @media (max-width: 1024px) {
   h1 {
     font-size: 50px;
+    text-shadow: 3px 3px #ac1313;
   }
 }
 
 @media (max-width: 700px) {
   h1 {
-    font-size: 40px;
+    font-size: 45px;
+    text-shadow: 3px 3px #ac1313;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   h1 {
-    font-size: 35px;
+    font-size: 39px;
+    text-shadow: 3px 3px #ac1313;
   }
 }
 
@@ -149,7 +157,9 @@ h1 {
 
 .line {
   display: block;
-  border: 1px solid #da1818;
+  margin: auto;
+  width: 400px;
+  border: 1px solid #ccc099;
 }
 
 @media (max-width: 1024px) {
@@ -166,7 +176,7 @@ h1 {
 
 @media (max-width: 500px) {
   .slogan {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -177,10 +187,10 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 15px;
+  padding: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #form {
     display: -ms-grid;
     display: grid;
@@ -191,13 +201,13 @@ h1 {
 
 #email {
   margin: 0px 10px;
-  padding: 10px;
+  padding: 5px;
   font-size: 17px;
   border: 1px solid #ff6600;
   border-radius: 2%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #email {
     margin: 0px 10px 10px 10px;
   }
@@ -206,7 +216,7 @@ h1 {
 #submit {
   background: #ac1313;
   color: #ff6600;
-  padding: 10px;
+  padding: 5px;
   font-size: 17px;
   border: 1px solid #ff6600;
   border-radius: 2%;
@@ -220,9 +230,8 @@ h1 {
   transition: 0.5s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #submit {
-    padding: 8px 5px;
     margin: 0px 50px;
   }
 }
